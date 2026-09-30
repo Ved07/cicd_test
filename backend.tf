@@ -1,7 +1,7 @@
 terraform {
   backend "s3" {
-    bucket       = "cicd-test-3124"
-    region       = "us-east-1"
+    bucket       = "ci-cd-test-3322"
+    region       = "ap-south-1"
     use_lockfile = true
   }
 }
